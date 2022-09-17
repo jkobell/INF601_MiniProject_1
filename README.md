@@ -1,3 +1,3 @@
- INF601 - Advanced Programming in Python
- James Kobell
+ ### INF601 - Advanced Programming in Python
+ James Kobell |
  Mini Project 1
