@@ -35,7 +35,7 @@ for result in api_results:
             data_closeprice.append(item['close'])
         closeprice_nparray = np.array(data_closeprice) # convert data list to numpy array
         tickername = item['symbol']
-        plt.figure() # must create figure object to prevent summation
+        plt.figure() # must create figure object to prevent summation -- race condition?
         plt.plot(closeprice_nparray) # move all plt.xxxx to a method
         plt.gca().invert_xaxis() # reverse x axis
         plt.ylabel('Close price')
