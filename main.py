@@ -43,7 +43,7 @@ for result in api_results:
         plt.xticks(np.arange(10), labels, rotation = 30)        
         plt.margins(.05, .1) # padding
         plt.tight_layout()
-        plt.savefig(f"charts/{tickername}.png") # todo: wrap in try except, log except
+        plt.savefig(f"charts/{tickername}.png", facecolor = "#cfd9e4") # todo: wrap in try except, log except
         # plt.show() # uncomment to show
     else: 
         print(f"\n\tAPI Call failed with status code {result.status_code}.") # error message if not status code 200
