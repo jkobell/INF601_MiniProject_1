@@ -1,5 +1,5 @@
 # INF601 - Advanced Programming in Python
-# James Kobell |
+# James Kobell
 # Mini Project 1
 import requests
 import json

@@ -1,3 +1,6 @@
+# INF601 - Advanced Programming in Python
+# James Kobell
+# Test API call and print all data
 import requests
 import json
 ticker = "TSLA"
