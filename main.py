@@ -10,7 +10,6 @@ access_key = "place key here" # DO NOT show in commits; todo: get from file
 request_ticker = ""
 response = ""
 api_results = [] # declare list of responses for each api call
-#tickers = ['TSLA', 'NCR', 'ETH', 'AMZN', 'XOM'] # todo get from input control
 tickers = ['AMZN', 'ETH', 'NCR', 'TSLA', 'XOM'] # todo get from input control
 api_get = "http://api.marketstack.com/v1/eod" # todo: get from file
 for ticker in tickers: # loop through ticker list
